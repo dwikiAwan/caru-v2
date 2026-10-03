@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+@layer base {
+    body {
+        background-color: var(--color-slate-950, #020617);
+        color: var(--color-slate-100, #aebbc7);
+        min-height: 100vh;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+}
